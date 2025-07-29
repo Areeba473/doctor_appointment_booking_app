@@ -1,16 +1,20 @@
-# doctor_appointment_booking_app
+# Doctor Appointment Booking App
 
-A new Flutter project.
+A Flutter-based mobile application that allows users to book, manage, and cancel doctor appointments, integrated with Firebase for real-time data storage and user authentication.
 
-## Getting Started
+## Features
+- **User Authentication**: Secure login and signup using Firebase Authentication.
+- **CRUD Operations**: Create, read, update, and delete appointments.
+- **Real-Time Database**: Store and sync appointment data using Firebase Firestore.
+- **User-Friendly Interface**: Intuitive UI for browsing doctors and managing bookings.
 
-This project is a starting point for a Flutter application.
+## Tech Stack
+- **Frontend**: Flutter (Dart)
+- **Backend**: Firebase (Firestore for database, Authentication for user management)
+- **Tools**: Android Studio, Git
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Setup Instructions
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/Areeba473/doctor_appointment_booking_app.git
+   cd doctor_appointment_booking_app
